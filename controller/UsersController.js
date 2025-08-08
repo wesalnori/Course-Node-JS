@@ -55,3 +55,14 @@ exports.SingUpUser = (req , res) => {
         state : 1 
       })
 }
+
+
+exports.GetAllSalarys = (req , res) => {
+
+    res.json({
+    state : 1 ,
+    salary  : ['1111' , '2222','5555' , '333'],
+    
+    })
+
+}
